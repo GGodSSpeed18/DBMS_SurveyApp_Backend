@@ -1,0 +1,8 @@
+/users/update -> /users/{userid}/update
+/users/groups -> /users/{userid}/groups
+/users/forms -> /users/{userid}/forms
+/users/responses -> /users/{userid}/responses
+/users/delete -> /users/{userid}/delete
+
+/forms/delete -> /forms/{formid}/delete
+/forms/{formid}/delete -> /forms/{formid}/delete/{questionid}
